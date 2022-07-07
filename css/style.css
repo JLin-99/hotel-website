@@ -94,9 +94,17 @@ p {
 }
 
 /* Padding */
-.py-1 { padding: 1rem 0;}
-.py-2 { padding: 2rem 0;}
-.py-3 { padding: 3rem 0;}
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
 
 /* Navbar */
 #navbar {
@@ -267,6 +275,36 @@ p {
   float: left;
   margin-right: 1em;
   border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 1em;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 1em;
+  border: 1px solid #333;
+}
+
+#contact-form textarea {
+  height: 20rem;
+
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: #f7c08a;
+  outline-color: #f7c08a;
 }
 
 /* Footer */
