@@ -88,6 +88,16 @@ p {
   clear: both;
 }
 
+.l-heading {
+  font-size: 4rem;
+  line-height: 1em;
+}
+
+/* Padding */
+.py-1 { padding: 1rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
 /* Navbar */
 #navbar {
   background-color: #1f1f1f;
@@ -195,6 +205,68 @@ p {
 
 .box i {
   margin-bottom: 0.21em;
+}
+
+/* About Info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  display: block;
+  position: relative;
+  height: auto;
+  padding-top: 5rem;
+}
+
+#testimonials::after {
+  content: "";
+  background: url('../img/testimonial\ background.jpg') no-repeat center center/cover;
+  opacity: 0.33;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#testimonials .testimonial {
+  padding: 1em;
+  margin-bottom: 2.5em;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  margin-right: 1em;
+  border-radius: 50%;
 }
 
 /* Footer */
