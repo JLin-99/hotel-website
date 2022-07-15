@@ -291,6 +291,11 @@ p {
   margin-bottom: 0.5em;
 }
 
+#contact-form label::after {
+  content: ' *';
+  color: #f00;
+}
+
 #contact-form input,
 #contact-form textarea {
   width: 100%;
